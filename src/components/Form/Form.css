@@ -1,0 +1,56 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30rem;
+  height: auto;
+}
+
+/* Inputs */
+.input-wrapper {
+  position: relative;
+  width: 100%;
+}
+input {
+  background-color: rgb(235, 235, 235);
+  width: 100%;
+  height: 40px;
+  padding: 10px;
+  outline: none;
+  border: none;
+}
+.search-icon {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  vertical-align: middle;
+  width: 15px;
+  height: 15px;
+  color: gray;
+}
+
+/* Button */
+.add-button {
+  border: none;
+  background-color: rgb(255, 211, 67);
+  width: 100%;
+  height: 40px;
+  margin-bottom: 40px;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+button:hover {
+  background-color: rgb(255, 196, 0);
+}
+
+/* Select */
+select {
+  background-color: rgb(235, 235, 235);
+  border: none;
+  outline: none;
+  width: 100%;
+  height: 40px;
+  padding: 10px;
+}

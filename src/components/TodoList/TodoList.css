@@ -1,0 +1,14 @@
+.todolist {
+  width: 50rem;
+  height: 400px;
+  background-color: #fff;
+  padding: 40px;
+  overflow-y: auto;
+}
+::-webkit-scrollbar {
+  background-color: rgb(235, 235, 235);
+  width: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgb(255, 196, 0);
+}
