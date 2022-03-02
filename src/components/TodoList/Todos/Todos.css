@@ -33,3 +33,10 @@
   height: 15px;
   color: #fff;
 }
+
+/* Marked Todo */
+.todos-container.completed {
+  background-color: rgb(241, 241, 241);
+  color: rgb(160, 160, 160);
+  box-shadow: 0 0 0 0 #fff;
+}
